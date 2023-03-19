@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.swichtab-controller {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #c5c4c4;
+}
+
+.swichtab-controller > li {
+  flex: 1 1 auto;
+font-weight: 500;
+
+}
+
+.swichtab-controller > li:first-child {
+
+}
+
+.swichtab-controller > li > a {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  color: #434242 !important;
+}
+
+.swichtab-controller > li.is-active > a {
+  border-bottom: 4px solid #e31e24;;
+  font-weight: 700;
+}
+
+.swichtab-contents {
+  padding: 1em;
+
+  overflow: hidden;
+}
+
+.swichtab-panel {
+  display: none;
+}

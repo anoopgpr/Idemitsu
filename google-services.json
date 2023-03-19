@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "297205445060",
+    "project_id": "idemitsu-ef9cd",
+    "storage_bucket": "idemitsu-ef9cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297205445060:android:9ff1239360b8fe16507491",
+        "android_client_info": {
+          "package_name": "com.mobiquest.idemitsu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297205445060-id5k8kkns25h47behlm3jpdu12pp1vnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZB2AExaqv6LKgGqxPCthjMR3PoSRw-aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297205445060-id5k8kkns25h47behlm3jpdu12pp1vnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

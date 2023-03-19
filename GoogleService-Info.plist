@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>297205445060-8mtpv2ibmroui31b4mpqmntp3ab8efn6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.297205445060-8mtpv2ibmroui31b4mpqmntp3ab8efn6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCsy5llLiB-CGZEYweRg5aagMX5rYtG6qo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>297205445060</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mobiquest.idemitsu</string>
+	<key>PROJECT_ID</key>
+	<string>idemitsu-ef9cd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>idemitsu-ef9cd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:297205445060:ios:83260120a2c7966d507491</string>
+</dict>
+</plist>

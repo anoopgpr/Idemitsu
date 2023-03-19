@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACC Limited</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/mloyal.css">
+	<link rel="stylesheet" href="assets/css/app.css">
+    <script src="jquery-1.11.1.min.js"></script>
+	<script src="phaser.min.js"></script>
+     <script src ="game.js"></script>
+     
+     <script>
+     	$(document).on('ready', function() {	
+		var w=$(window).width();
+		var h=$(window).height();
+		// creation of a 458x488 game
+		game = new Phaser.Game(w, h, Phaser.AUTO, "playwheel");
+		 // adding "PlayGame" state
+		 game.state.add("PlayGame",playGame);
+		 // launching "PlayGame" state
+		 game.state.start("PlayGame");
+	});
+		 
+
+	var mobileno= window.location.search.substring(1);
+
+	//alert(mobileno);
+
+     </script>
+	</head>
+	<body class="home_bg">
+       
+    <div class="wrapper"> 
+        <div data-role="header" class="  ui-header ui-bar-inherit ui-header-fixed slidedown" data-position="fixed" data-tap-toggle="false" role="banner">
+			<div class="d-flex align-items-center justify-content-between main_header  ">
+				<div class="d-flex align-items-center justify-content-start"> <a href="index.html#homepage"   class="sidemenu_btn44"> <img src="assets/images/back_btn1.png" class="img-responsive" alt=""> </a>
+					<h3 class="header_title123">Click & Win</h3>
+				</div>
+				 
+			</div>
+		</div>    
+      <div class=""> <img src="img/logo.png" alt="Logo" class="img-responsive center-block" /> </div>
+      
+	 
+	</div>
+	<a href="#" class="enquiry_sbt_btn" id="offer_btn" style="position: absolute; bottom: 17vh;left: 50%; margin-left: -65px; cursor: pointer">Click Now</a>
+    <br><br> 
+	<div href="#" class=" " style="
+    position: absolute;
+    bottom: 14vh;
+    left: 50%;
+    margin-left: -55px;
+    margin-bottom: 8px;
+">Terms and Conditions</div> 
+   
+      
+   <a href="index.html"> <div id="offerPop" class="pop_offer">
+
+      
+     </div></a> 
+     <footer>
+        <div class="d-flex align-items-center justify-content-center flex-wrap">
+            <div class="foot_menu">
+                <ul>
+                    <a href="index.html#homepage"><li><div class="fthumb-icon"><img src="assets/images/app_images/home.png"></div>Home</li></a>
+                    <a href="index.html#rewards_pg"><li><div class="fthumb-icon"><img src="assets/images/app_images/my-rewards.png"></div>Redeem Points</li></a>
+                    <a href="index.html#transactions"><li><div class="fthumb-icon"><img src="assets/images/app_images/passbook-icon.png"></div>Passbook</li></a>
+                    
+                    <a href="#"><li><div class="fthumb-icon"><img src="assets/images/app_images/alert.png"></div>Alerts</li> </a>
+                </ul>
+            </div>
+        </div> 
+    </footer>
+ <div>
+  
+   </div>
+     <script>
+		 
+		 $("#offer_btn").on("click", function(){
+			 playGame.prototype.spin();
+		});
+		
+		 
+		$(document).ready(function(){
+    function showPopup(whichpopup){
+     var docHeight = $(document).height();
+     var scrollTop = $(window).scrollTop();
+     $('.overlay-bg').show().css({'height' : docHeight});
+     $('.popup'+whichpopup).show().css({'top': scrollTop+20+'px'});
+    }
+    // function to close our popups
+    function closePopup(){
+        $('.overlay-bg, .overlay-content').hide();
+    }
+    $('.show-popup').click(function(event){
+        event.preventDefault();
+        var selectedPopup = $(this).data('showpopup');
+        showPopup(selectedPopup);
+    });
+    $('.close-btn, .overlay-bg').click(function(){
+        closePopup();
+    });
+    $(document).keyup(function(e) {
+        if (e.keyCode == 27) {
+            closePopup();
+        }
+    });
+			
+			/*$("#offer_btn").on("click", function(){
+				
+			})*/
+});
+		
+		
+		
+		</script>
+      
+	</body>
+   
+</html>
